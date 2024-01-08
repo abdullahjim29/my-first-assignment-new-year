@@ -283,21 +283,27 @@
 
 /* holiday section */
 .holiday-container{
-  width: 77%;
-  height: 600px;
+  width: 79%;
+  height: 730px;
   margin: 120px auto;
-  background-color: aqua;
+  background-image: url("../media/images/Rectangle\ 1.png"), url("../media/images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-size: 35%,100%;
+  background-position:  right center,bottom;
+  background-position-y:40px 0px;
 }
 
 .holiday-text {
   text-align: center;
+  padding-right: 55px;
 }
 
 .holiday-text > h5 {
   color: #070211;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+  padding-right: 30px;
 }
 .impo-holi {
   color: #f00;
@@ -322,5 +328,19 @@
   line-height: 32px; /* 160% */
   text-align: center;
   width: 600px;
-  padding-left: 245px;
+  padding-left: 250px;
+  width:400px;
+}
+
+/* holiday images section style */
+
+.grp-75{
+  width: 400px;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+.grp-44{
+  width: 200px;
+  padding-left: 120px;
+  padding-bottom: 130px;
 }
