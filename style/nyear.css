@@ -282,15 +282,16 @@
 }
 
 /* holiday section */
-.holiday-container{
+.holiday-container {
   width: 79%;
   height: 730px;
   margin: 120px auto;
-  background-image: url("../media/images/Rectangle\ 1.png"), url("../media/images/Rectangle\ 2.png");
+  background-image: url("../media/images/Rectangle\ 1.png"),
+    url("../media/images/Rectangle\ 2.png");
   background-repeat: no-repeat;
-  background-size: 35%,100%;
-  background-position:  right center,bottom;
-  background-position-y:40px 0px;
+  background-size: 35%, 100%;
+  background-position: right center, bottom;
+  background-position-y: 40px 0px;
 }
 
 .holiday-text {
@@ -319,7 +320,7 @@
   font-style: normal;
   font-weight: 900;
 }
-.holiday-text>p {
+.holiday-text > p {
   color: black;
   text-align: center;
   font-family: Inter;
@@ -329,18 +330,61 @@
   text-align: center;
   width: 600px;
   padding-left: 250px;
-  width:400px;
+  width: 400px;
 }
 
 /* holiday images section style */
 
-.grp-75{
+.grp-75 {
   width: 400px;
   padding-left: 80px;
   padding-top: 20px;
 }
-.grp-44{
+.grp-44 {
   width: 200px;
   padding-left: 120px;
   padding-bottom: 130px;
+}
+
+/* portfolio section */
+
+.awesome-text{
+  padding-left: 160px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.awesome-text > h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.awesome-text > h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.awesome-text > p {
+  color: black;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px; /* 160% */
+}
+
+/* portfolio images  */
+.portfolio-images{
+  width: 80%;
+  margin: 120 auto;
+  /* background-color: aqua; */
+  padding: 0 120px;
+  padding-left: 150px;
+}
+.portfolio-images img{
+  width: 320px;
+  padding: 10px;
 }
