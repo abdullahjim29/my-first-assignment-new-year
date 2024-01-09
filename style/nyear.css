@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
 /* Banner section style */
+
+/* body{
+  background-color: aqua;
+} */
 .banner-section {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../media/images/Banner\ Image.png");
@@ -450,6 +454,45 @@ input[placeholder] {
   font-weight: 600;
   text-transform: capitalize;
 }
-.no-gap{
+.no-gap {
   gap: 0;
+}
+
+/* footer section */
+.foot-contact-container {
+  display: flex;
+  justify-content: space-between;
+  background: #070211;
+}
+
+.foot-left {
+  padding-top: 10px;
+  padding-left: 170px;
+ 
+}
+.foot-left > p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  line-height: 25px;
+}
+
+.foot-right {
+  padding-top: 28px;
+  padding-right: 170px;
+}
+
+.foot-right span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  line-height: 25px;
+}
+
+.foot-right img{
+  width: 15px;
 }
